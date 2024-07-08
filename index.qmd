@@ -13,28 +13,28 @@ editor_options:
 ## Background
 
 
-### Personal Statement
+### Personal Statement {.unnumbered}
 
 Students should provide a brief (up to approximately 500 words) personal statement.  This statement should include a narrative of their career goals to provide a context for the materials provided in their portfolio.  The statement can also provide details regarding current accomplishments and expertise, anticipated accomplishments and/or expertise to be gained in the program and plans to acquire it, obstacles experienced or anticipated, or any other relevant information to contextualize their portfolio or establish themselves as an emerging clinical scientist.
 
 
 
-### Supporting documents
-- CV
-- Transcript
+### Supporting documents {.unnumbered}
+- [Current CV](https://github.com/KendraPaquette/portfolio/blob/main/documents/cv_kw.pdf)
+- [Unofficial transcript](https://github.com/KendraPaquette/portfolio/blob/main/documents/transcript_kw.pdf)
 
 
 ## Research Experiences
 
-### Research Statement
+### Research Statement {.unnumbered}
 Research statement: Provide in format of tenure portfolio research statement or internship research statement (i.e., Please describe your research experience and interests in 500 words).  See appendix on writing a research statement at the end of this document for more details.
 
-### First-Author Publications
+### First-Author Publications {.unnumbered}
 For all published or submitted papers, students should report their relative contributions to the conceptualization, design, analysis, and writing in percentages.
 
-### Co-Author Publications
+### Co-Author Publications {.unnumbered}
 
-### Oral Presentations
+### Presentations {.unnumbered}
 
 Clinical Lunch and Learn Presentation 
 Title: Personal sensing in clinical research
@@ -50,12 +50,11 @@ Abstract: Alcohol use disorder is a chronic relapsing disease. People can relaps
 Title: Personal sensing of smartphone communications to support recovery for alcohol use disorder
 Date: December 3, 2021
 
-### Poster Presentations
 - CPA Poster Abstract:
 Personal sensing may improve digital therapeutics for mental health care. However, further development and use of personal sensing first requires better understanding of its acceptability to people targeted for these mental health applications. Participants (N = 154; 50% female; mean age = 41; 87% White, 97% Non-Hispanic) in early recovery from alcohol use disorder were recruited from the Madison, WI area. Participants engaged with active (EMA, audio check-in, and sleep quality) and passive (geolocation, cellular communication logs, and text message content) personal sensing methods for up to three months. We assessed the acceptability of these methods using both behavioral and self-report measures. The average completion rate for all requested EMAs was 81%. The completion rate for the audio check-in was 55%. Aggregate participant ratings indicated all methods to be significantly more acceptable (all P’s < .05) compared to neutral across subjective measures of interference, dislike, and willingness to use for one year. Participants did not significantly differ in their dislike of active compared to passive methods (P = .23). However, participants reported a higher willingness to use passive methods for one year compared to active methods (P = .04). These results suggest both active and passive personal sensing methods are generally acceptable to people with alcohol use disorder. Important individual differences were observed both across people and methods which indicate opportunities for future improvements.
 
 
-### Workshops
+### Workshops {.unnumbered}
 Introduction to Structural Equation Modeling Workshop 
 Instructors: Daniel Bauer, Ph.D. & Patrick Curran, Ph.D.
 Date: May 10 – 12, 2021
@@ -87,6 +86,7 @@ Provide integrative or other assessment reports after appropriate de-identificat
 
 ### ### Near Future Directions (include in slide deck not portfolio)
 - VA
+- assessment focused internship
 
 
 ## Diversity Experiences
@@ -130,11 +130,6 @@ Date: Fall 2020 – Spring 2021
 
 ### Near Future Directions (include in slide deck not portfolio)
 - TA IAML and GLM 
-
-## References
-
-::: {#refs}
-:::
 
 
 
