@@ -1,156 +1,136 @@
 ---
-title: A Super Cool Study - Take 2
+title: Clinical Psychology Portfolio
 author:
-  - name: Josephine Student 
-    orcid: 0000-0002-7859-8394
-    corresponding: false
-    roles: []
+  - name: Kendra Wyant 
     affiliations:
       - Department of Psychology, University of Wisconsin-Madison
-  - name: John J. Curtin 
-    orcid: 0000-0002-3286-938X
-    corresponding: true
-    email: jjcurtin@wisc.edu
-    roles:
-      - Investigation
-      - Project administration
-      - Software
-      - Visualization
-    affiliations:
-      - Department of Psychology, University of Wisconsin-Madison 
-keywords:
-  - Substance use disorders
-  - Precision mental health 
-abstract: |
-  This study found some pretty cool results that have both high impact and important clinical implications.  For example ...
-plain-language-summary: |
-  The ARC produces some of the best science around! ...
-key-points:
-  - Take away point 1 
-  - Take away point 2
 date: last-modified
-bibliography: references.bib
-citation:
-  container-title: Journal of Important Findings 
-number-sections: false 
+bibliography: portfolio.bib
+number-sections: true 
 editor_options: 
   chunk_output_type: console
 ---
 
-## Introduction
-
-You can write your text using markdown.  
-
-- Top level section headings use ## because # is reserved for the manuscript title. 
-- APA (and other?) formats support ##, ###, and #### at least.
+## Background
 
 
-### Sub-heading - level 3
+### Personal Statement
 
-This is the ### level
-
-
-#### Sub-heading - level 4
-
-This is the #### level
-
-
-##### Sub-heading - level 5
-
-This is the ##### level
-
-
-### Symbols and Equations
-
-You can use quarto inline or display math equations as needed.  Quarto provides [details](https://quarto.org/docs/authoring/markdown-basics.html#equations) on the use of these equations.
-
-For example $x$ and $y$ are two variables. And here is an important formula:
-
-$$
-p(x) = \frac{e^{-\lambda} \lambda^{x}}{x !}
-$$ 
-
-
-### Citations & References
-
-We can use cite relevant research in multiple formats.  The two most common are: 
-
-- @knuth84 concluded something.  
-- These are the conclusions[@knuth84].
-
-Article references are stored in a .bib file using betterbibtex (BBT) format.  We create these references in Zotero collections.
-
-Although we don't do this regularly I think, if needed you can reference figures elsewhere using the @ symbol.   Here is a reference to @fig-1
-
-
-## Methods
-
-This is the methods section.
-
-
-## Results
-
-Results include
-
-- Markdown text
-- Figures from data
-- Figures from images (maybe included table images)
-- Analysis output (i.e. statistics)
-
-We demonstrate each (other than markdown text, which you should know!) below
-
-
-### Data Figures
-
-Figures are also generally created in separate notebooks and embedded into your manuscript.
-
-{{< embed notebooks/fig1.qmd#fig-1 >}}
-
-### Figures from images
-
-Images from figures can be included using the standard code to insert image files.  These images should generally be saved in the image folder at the root of the study template by convention.  The quarto website provides [additional details](https://quarto.org/docs/authoring/figures.html)
-
-![ARC Logo](images/arc_logo.png){#fig-2}
-
-### Tables
-
-We create tables using the kableExtra package.  We are working on the optimal method to embed these from notebooks.  It may be to save the tables as high res image files and then embed those images.  Stay tuned.
-
-Alternatively, this is an example of a simple table that is hard-coded using markdown table format.  We don't recommend this for tables built from data. Tables values should come directly from data so they don't need to be typed in and will update if your data change.  However, you may have other uses for simple tables where this method is helpful.
-
-| Name                | Year |
-|---------------------|------|
-| Current             | 2021 |
-| Teneguía            | 1971 |
-| Nambroque           | 1949 |
-| El Charco           | 1712 |
-| Volcán San Antonio  | 1677 |
-| Volcán San Martin   | 1646 |
-| Tajuya near El Paso | 1585 |
-| Montaña Quemada     | 1492 |
-
-: Recent historic eruptions on La Palma {#tbl-history}
-
-### Analysis Results
-
-To add results that are not figures or tables, you will need to open the objects you saved from these analyses.  See lm.qmd as an example. Generally you will open csv files that contain tidied results. For example
-```{r}
-library(tidyverse)
-
-coeffs <- read_csv(here::here("objects/coeff_table.csv"),
-                   col_types = cols())
-```
-
-A significant effect of speed was observed ($\beta$ = `r sprintf("%1.1f", coeffs |> filter(term == "speed") |> pull(estimate))`, t = `r sprintf("%1.2f", coeffs |> filter(term == "speed") |> pull(statistic))`, p = `r sprintf("%1.3f", coeffs |> filter(term == "speed") |> pull(p.value))`).
-
-NOTES: 
-
-- We should write a function that works with tidied coeffs tables and takes the row, column, and number of decimal  places to make this code simpler.
-- This table doesnt contain df.  Need to add that to table when saving in lm
+Students should provide a brief (up to approximately 500 words) personal statement.  This statement should include a narrative of their career goals to provide a context for the materials provided in their portfolio.  The statement can also provide details regarding current accomplishments and expertise, anticipated accomplishments and/or expertise to be gained in the program and plans to acquire it, obstacles experienced or anticipated, or any other relevant information to contextualize their portfolio or establish themselves as an emerging clinical scientist.
 
 
 
-## Discussion
+### Supporting documents
+- CV
+- Transcript
+
+
+## Research Experiences
+
+### Research Statement
+Research statement: Provide in format of tenure portfolio research statement or internship research statement (i.e., Please describe your research experience and interests in 500 words).  See appendix on writing a research statement at the end of this document for more details.
+
+### First-Author Publications
+For all published or submitted papers, students should report their relative contributions to the conceptualization, design, analysis, and writing in percentages.
+
+### Co-Author Publications
+
+### Oral Presentations
+
+Clinical Lunch and Learn Presentation 
+Title: Personal sensing in clinical research
+Date: April 7, 2021
+Abstract: Personal sensing is a longitudinal method for in situ data collection. Raw personal sensing data streams (e.g., sensor or log data) can be used to create measures that act as indicators of mental health constructs. Thus, paving the way for more accessible and timely treatment and intervention options. However, using personal sensing in clinical settings requires that people accept their use and will sustain the behaviors they require. This presentation provides an overview of the acceptability of various personal sensing data streams individually and in the same context among participants with alcohol use disorder. Future implications of the acceptability of these measures will be discussed in the context of my First Year Project.
+
+2021 PREP Symposium
+Title: A personal sensing approach to alcohol lapse prediction
+Date: August 5, 2021
+Abstract: Alcohol use disorder is a chronic relapsing disease. People can relapse days, weeks, months, or even years after achieving abstinence. Identifying when an initial lapse will occur is an important goal in preventing lapses, repeated lapses, and relapse. Because of the dynamic nature of lapse risk, traditional treatment, like monthly therapy or biweekly therapy sessions, may not be best suited for monitoring lapse risk and intervening prior to relapse, or a full return to previous drinking behavior. Personal sensing methods offer a tool for capturing fluctuations in lapse risk in real time. One understudied personal sensing method in the substance use literature is cellular communication logs. The present study contextualizes participants’ communications with self-report information about their frequently communicated with contacts and seeks to develop a predictive model to predict when someone is at a high risk of lapsing.
+
+36th Annual First-Year Project Symposium
+Title: Personal sensing of smartphone communications to support recovery for alcohol use disorder
+Date: December 3, 2021
+
+### Poster Presentations
+- CPA Poster Abstract:
+Personal sensing may improve digital therapeutics for mental health care. However, further development and use of personal sensing first requires better understanding of its acceptability to people targeted for these mental health applications. Participants (N = 154; 50% female; mean age = 41; 87% White, 97% Non-Hispanic) in early recovery from alcohol use disorder were recruited from the Madison, WI area. Participants engaged with active (EMA, audio check-in, and sleep quality) and passive (geolocation, cellular communication logs, and text message content) personal sensing methods for up to three months. We assessed the acceptability of these methods using both behavioral and self-report measures. The average completion rate for all requested EMAs was 81%. The completion rate for the audio check-in was 55%. Aggregate participant ratings indicated all methods to be significantly more acceptable (all P’s < .05) compared to neutral across subjective measures of interference, dislike, and willingness to use for one year. Participants did not significantly differ in their dislike of active compared to passive methods (P = .23). However, participants reported a higher willingness to use passive methods for one year compared to active methods (P = .04). These results suggest both active and passive personal sensing methods are generally acceptable to people with alcohol use disorder. Important individual differences were observed both across people and methods which indicate opportunities for future improvements.
+
+
+### Workshops
+Introduction to Structural Equation Modeling Workshop 
+Instructors: Daniel Bauer, Ph.D. & Patrick Curran, Ph.D.
+Date: May 10 – 12, 2021
+Summary: A three-day workshop focused on the application and interpretation of statistical models that are designed for the analysis of multivariate data with latent variables. Although the traditional multiple regression model is a powerful analytical tool within the social sciences, this is also highly restrictive in a variety of ways. Not only are all variables assumed to have no measurement error, but it is also limited to a single dependent variable with unidirectional effects. The structural equation model (SEM) generalizes the linear regression model to include multiple dependent variables, reciprocal effects, indirect effects, and the estimation and removal of measurement error through the inclusion of latent variables. The SEM is a general framework that allows for the empirical testing of research hypotheses in ways not otherwise possible. In this workshop we provide an introduction to SEM that includes path analysis, confirmatory factor analysis, and structural equation models with latent variables, and which focuses on both establishing a conceptual understanding of the model and how it is applied in practice.
+
+
+### Near Future Directions (include in slide deck not portfolio)
+- submit lag paper by end of month
+- propose dissertation in Spring
+
+## Clinical Experiences
+
+### Clinical Orientation Statement
+
+Internship clinical orientation statement: Please describe your theoretical orientation and how this influences your approach to case conceptualization and intervention. You may use de-identified case material to illustrate your points if you choose. 500 word limit
+
+
+### Practicum Experiences
+
+Descriptions of clinical practicum experiences: Brief description should include the name and dates for the practicum, brief description of the client population and other relevant details (e.g., interventions, modalities). This should include documentation of clinical hours (per internship categories) and available/completed supervisor evaluations.
+
+### Certification by Clinical Director
+
+
+### Assessment Report
+
+Provide integrative or other assessment reports after appropriate de-identification. Do not include raw data from assessments.
+
+
+### ### Near Future Directions (include in slide deck not portfolio)
+- VA
+
+
+## Diversity Experiences
+
+### Diversity Statement
+
+### Workshops
+
+Empowering people to break the bias habit: Evidenced-based approaches to reducing bias and creating inclusion
+Speaker: Will Cox, Ph.D.
+Description: 3-hour workshop to introduce academic audiences to the concepts of implicit or unconscious biases and assumptions about diverse groups of people by treating the application of such biases as a “habit.” Participants will uncover their own biases, discover the underlying concepts and language used in the psychological and social psychological literature to describe such processes, participate in interactive discussions about the potential influence of implicit or unconscious bias in their department/unit, and learn evidence-based strategies for reducing the application of these biases.
+
+
+### Mentorship and Committees
+
+1.	Maximizing Access to Research Careers Alumni Mentor Program
+Date: Fall 2020 – Spring 2022
+Mentee: Christopher Creighton, CSUF – Fullerton, CA
+
+2.	PREP Alumni Mentor Program
+Date: Summer 2021
+Mentee: Olivia Sutton, Westminster College – Salt Lake City, UT
+
+3. Clinical Area Antiracism and Academic Training Committee Member
+Date: Fall 2020 – Spring 2021
+
+4. PREP Research Mentor, includes summer DELTA training (provide syllabus)
+
+### Near Future Directions (include in slide deck not portfolio)
+
+- Project SHORT Mentor
+
+
+
+## Teaching Experiences
+
+- guest lecture
+- led lecture discussion on explanatory methods in IAML, co-led weekly lab
+- materials for GLM
+- Grading papers and open ended exams and providing feedback on writing for 2 classes since 2021
+
+### Near Future Directions (include in slide deck not portfolio)
+- TA IAML and GLM 
 
 ## References
 
