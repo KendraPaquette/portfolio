@@ -13,58 +13,105 @@ editor_options:
 ## Background
 
 
-### Personal Statement {.unnumbered}
+### Personal Statement 
 
 Students should provide a brief (up to approximately 500 words) personal statement.  This statement should include a narrative of their career goals to provide a context for the materials provided in their portfolio.  The statement can also provide details regarding current accomplishments and expertise, anticipated accomplishments and/or expertise to be gained in the program and plans to acquire it, obstacles experienced or anticipated, or any other relevant information to contextualize their portfolio or establish themselves as an emerging clinical scientist.
 
 
 
-### Supporting documents {.unnumbered}
+### Supporting documents 
 - [Current CV](https://arc.psych.wisc.edu/wp-content/uploads/sites/425/2020/08/Kendra_Wyant_CV.pdf)
 - [Unofficial transcript](https://github.com/KendraPaquette/portfolio/blob/main/documents/transcript_kw.pdf)
 
 
 ## Research Experiences
 
-### Research Statement {.unnumbered}
+### Research Statement 
 Research statement: Provide in format of tenure portfolio research statement or internship research statement (i.e., Please describe your research experience and interests in 500 words).  See appendix on writing a research statement at the end of this document for more details.
 
-### First-Author Publications {.unnumbered}
+### First-Author Publications 
 
 1. **Wyant, K.**, Sant’Ana, S.J., Fronk, G.E., & Curtin, J.J. (in press). Machine learning models for temporally precise lapse prediction in alcohol use disorder. *Journal of Psychopathology and Clinical Science*. [preprint](https://osf.io/preprints/psyarxiv/cgsf7)    
 
-Relative contributions   
+Abstract:  
 
-- conceptualization: 25%   
-- design: 25%  
-- analysis: 50%; Collaborated with John Curtin to develop generic functions and supporting code for creating features, running main and baseline models on CHTC, and running parameterized scripts to get model performance metrics.  
-- writing: 30%  
+We developed three separate models that provide hour-by-hour probabilities of a future lapse back to alcohol use with increasing temporal precision (i.e., lapses in the next week, next day, and next hour). Model features were based on raw scores and longitudinal change in theoretically implicated risk factors collected through ecological momentary assessment (EMA). Participants (*N*=151; 51% male; mean age = 41; 87% White, 97% Non-Hispanic) in early recovery (1–8 weeks of abstinence) from alcohol use disorder provided 4x daily EMA for up to three months. We used grouped, nested cross-validation, with 1 repeat of 10-fold cross-validation for the inner loop and 3 repeats of 10-fold cross-validation for the outer loop to train models, select best models, and evaluate those best models on auROC. Models yielded median areas under the receiver operating curves (auROCs) of .90, .91, and .94 in the 30 held-out test sets for week, day, and hour level models, respectively. Some feature categories consistently emerged as being globally important to lapse prediction across our week, day, and hour level models (i.e., past use, future efficacy). However, most of the more punctuate, time varying constructs (e.g., craving, past stressful events, arousal) appear to have greater impact within the next hour prediction model. This research represents an important step toward the development of a smart (machine learning guided) sensing system that can both identify periods of peak lapse risk and recommend specific supports to address factors contributing to this risk.  
+
+Relative contributions:   
+
+- conceptualization - 25%   
+- design - 25%  
+- analysis - 50%; Collaborated with John Curtin to develop generic functions and supporting code for creating features, running main and baseline models on CHTC, and running parameterized scripts to get model performance metrics.  
+- writing - 30%; Contributed to original draft, edits, and revisions per reviewer suggestions.
 
 
 2. **Wyant, K.**, Moshontz, H., Ward, S.B., Fronk, G.E., & Curtin, J.J. (2023). Acceptability of personal sensing among people with alcohol use disorder: Observational study. *JMIR mHealth and uHealth*. [http://dx.doi.org/10.2196/41833](http://dx.doi.org/10.2196/41833)  
 
+Abstract:  
 
-Relative contributions   
+  **Background:** Personal sensing may improve digital therapeutics for mental health care by facilitating early screening, symptom monitoring, risk prediction, and personalized/adaptive interventions. However, further development and use of personal sensing requires better understanding of its acceptability to people targeted for these mental health applications.
+  **Objective:** We assessed the acceptability of active and passive personal sensing methods in a sample of people with moderate to severe alcohol use disorder (AUD) using both behavioral and self-report measures.  This sample was recruited as part of a larger grant-funded project to develop a temporally precise machine learning algorithm to predict lapses.
+  **Method:** Participants (*N*=154; 50% female; mean age = 41; 87% White, 97% Non-Hispanic) in early recovery (1–8 weeks of abstinence) were recruited to participate in a 3-month longitudinal study. Participants were modestly compensated to engage with active (4x daily ecological momentary assessment; EMA, audio check-in, and sleep quality) and passive (geolocation, cellular communication logs, and text message content) sensing methods that were selected to tap into constructs from Marlatt's Relapse Prevention model. We assessed 3 behavioral indicators of acceptability: participants’ choices about their participation in the study at various stages in the procedure, their choice to opt-in to provide data for each sensing method, and their adherence to a subset of the active methods (EMA, audio check-in). We also assessed 3 self-report measures of acceptability (interference, dislike, and willingness to use for 1 year) for each method.
+  **Results:** *N*=191 of 192 eligible participants consented to personal sensing. Most of these individuals (88%) also returned 1 week later to formally enroll and begin to provide these data. All participants (100%) opted-in to provide data for EMA, sleep quality, most passive methods (geolocation, cellular communication logs), with 1 participant not providing text message content. Three participants (2%) did not provide any audio check-ins. The average completion rate for all EMAs was 80% and 94% for 1x daily. The completion rate for the daily audio check-in was 54%. Aggregate participant ratings indicated all personal sensing methods to be significantly more acceptable (all *p* < .05) compared to neutral across subjective measures of interference, dislike, and willingness to use for 1 year. Participants did not significantly differ in their dislike of active compared to passive methods (*p* = .23). However, participants reported a higher willingness to use passive (vs. active) methods for 1 year (*p* = .04).
+  **Conclusions:** These results suggest that active and passive sensing methods are acceptable to people with AUD over a longer period than has previously been assessed.  This was true even for data streams that contained potentially more sensitive information (e.g., geolocation, cellular communications).  Important individual differences were observed both across people and methods, which indicate opportunities for future improvements.  
+  
 
-- conceptualization: 50%   
-- design: 50%  
-- analysis: 80%    
-- writing: 60%  
+Relative contributions:   
+
+- conceptualization - 50%   
+- design - 50%  
+- analysis - 80%; Performed all analyses under supervision of John Curtin.    
+- writing - 60%; Primary contributor to original draft, edits, and revisions per reviewer suggestions.  
 
 
-### Co-Author Publications {.unnumbered}
+### Co-Author Publications 
 
 Moshontz, H., Colmenares, A.J., Fronk, G.E., Sant’Ana, S.J., **Wyant, K.**, Wanta, S.E., … & Curtin, J.J. (2021). Prospective prediction of lapses in opioid use disorder: Protocol for a personal sensing study. *Journal of Medical Internet Research: Research Protocols.* [https://doi.org/10.2196/29563](https://doi.org/10.2196/29563)   
 
 Relative contributions   
 
-- conceptualization: 10%   
-- design: 10%  
-- analysis: NA  
-- writing: 10% 
+- conceptualization - 10%   
+- design - 10%  
+- analysis - NA  
+- writing - 10%    
 
 
-### Presentations {.unnumbered}
+### Presentations 
+
+1. **Wyant, K.**, Sant’Ana, S.J., Fronk, G.E., & Curtin, J.J. (2024, June). *Using ecological momentary assessment for temporally precise lapse prediction in alcohol use disorder*. Flash talk presented at the 2024 Society for Ambulatory Assessment Conference, Ann Arbor, MI. 
+
+Abstract:  
+
+Ecological momentary assessment (EMA) can support frequent, in-situ, longitudinal measurement necessary for monitoring relapse risk. This study evaluates whether EMA can be used to build machine learning models that predict hour-by-hour probabilities of future alcohol lapses with increasing temporal precision (in the next week, next day, and next hour). Model features were engineered from raw scores and longitudinal change in responses to 4X daily EMAs from participants (*N*=151; 51% male; mean age = 41; 87% White, 97% Non-Hispanic) in early recovery from alcohol use disorder for up to three months. We used grouped, nested cross-validation to select and evaluate the performance of our best models. Models yielded median areas under the receiver operating curves of .89, .90, and .93 in held-out test sets for week, day, and hour level models, respectively. This confirms EMA can be used to predict alcohol lapses with high sensitivity and specificity for new individuals.  
+
+Slides available [here](https://github.com/KendraPaquette/portfolio/blob/main/presentations/saa_flashtalk_2024_0604.pdf)   
+
+
+2. **Wyant, K.** (2024, April). *Precision mental health for substance use disorders using personal sensing.* Capstone Presentation at the 2024 UW-Madison Clinical Psychology Research Symposium, Madison, WI.   
+
+Abstract:  
+
+Slides available [here](https://github.com/KendraPaquette/portfolio/blob/main/presentations/capstone_2024_0426.pdf)   
+
+3. **Wyant, K.** & Curtin, J.J. (2023, August). *Using high-throughput computing to predict future lapses back to alcohol use.* Presented at the Open Science Grid School HTC Showcase, Madison, WI.   
+
+Abstract:   
+
+Slides available [here](https://github.com/KendraPaquette/portfolio/blob/main/presentations/chtc_2023_0808.pdf)   
+
+4. **Wyant, K.**, Moshontz, H., Ward, S.B., Fronk, G.E., & Curtin, J.J. (2023, March). *Acceptability of personal sensing among people with alcohol use disorder.* Presented at Collaborative Perspectives on Addiction Annual Meeting, Albuquerque, NM.  
+
+Abstract:  
+
+Personal sensing may improve digital therapeutics for mental health care. However, further development and use of personal sensing first requires better understanding of its acceptability to people targeted for these mental health applications. Participants (*N*=154; 50% female; mean age=41; 87% White, 97% Non-Hispanic) in early recovery from alcohol use disorder were recruited from the Madison, WI area. Participants engaged with active (EMA, audio check-in, and sleep quality) and passive (geolocation, cellular communication logs, and text message content) personal sensing methods for up to three months. We assessed the acceptability of these methods using both behavioral and self-report measures. The average completion rate for all requested EMAs was 81%. The completion rate for the audio check-in was 55%. Aggregate participant ratings indicated all methods to be significantly more acceptable (all *P*’s < .05) compared to neutral across subjective measures of interference, dislike, and willingness to use for one year. Participants did not significantly differ in their dislike of active compared to passive methods (*P* = .23). However, participants reported a higher willingness to use passive methods for one year compared to active methods (P = .04). These results suggest both active and passive personal sensing methods are generally acceptable to people with alcohol use disorder. Important individual differences were observed both across people and methods which indicate opportunities for future improvements.  
+
+Poster available [here](https://github.com/KendraPaquette/portfolio/blob/main/presentations/CPA_2023_0316.pdf)   
+
+
+5. 
+
+
+
 
 Clinical Lunch and Learn Presentation 
 Title: Personal sensing in clinical research
@@ -80,18 +127,16 @@ Abstract: Alcohol use disorder is a chronic relapsing disease. People can relaps
 Title: Personal sensing of smartphone communications to support recovery for alcohol use disorder
 Date: December 3, 2021
 
-- CPA Poster Abstract:
-Personal sensing may improve digital therapeutics for mental health care. However, further development and use of personal sensing first requires better understanding of its acceptability to people targeted for these mental health applications. Participants (N = 154; 50% female; mean age = 41; 87% White, 97% Non-Hispanic) in early recovery from alcohol use disorder were recruited from the Madison, WI area. Participants engaged with active (EMA, audio check-in, and sleep quality) and passive (geolocation, cellular communication logs, and text message content) personal sensing methods for up to three months. We assessed the acceptability of these methods using both behavioral and self-report measures. The average completion rate for all requested EMAs was 81%. The completion rate for the audio check-in was 55%. Aggregate participant ratings indicated all methods to be significantly more acceptable (all P’s < .05) compared to neutral across subjective measures of interference, dislike, and willingness to use for one year. Participants did not significantly differ in their dislike of active compared to passive methods (P = .23). However, participants reported a higher willingness to use passive methods for one year compared to active methods (P = .04). These results suggest both active and passive personal sensing methods are generally acceptable to people with alcohol use disorder. Important individual differences were observed both across people and methods which indicate opportunities for future improvements.
 
 
-### Workshops {.unnumbered}
+### Workshops 
 Introduction to Structural Equation Modeling Workshop 
 Instructors: Daniel Bauer, Ph.D. & Patrick Curran, Ph.D.
 Date: May 10 – 12, 2021
 Summary: A three-day workshop focused on the application and interpretation of statistical models that are designed for the analysis of multivariate data with latent variables. Although the traditional multiple regression model is a powerful analytical tool within the social sciences, this is also highly restrictive in a variety of ways. Not only are all variables assumed to have no measurement error, but it is also limited to a single dependent variable with unidirectional effects. The structural equation model (SEM) generalizes the linear regression model to include multiple dependent variables, reciprocal effects, indirect effects, and the estimation and removal of measurement error through the inclusion of latent variables. The SEM is a general framework that allows for the empirical testing of research hypotheses in ways not otherwise possible. In this workshop we provide an introduction to SEM that includes path analysis, confirmatory factor analysis, and structural equation models with latent variables, and which focuses on both establishing a conceptual understanding of the model and how it is applied in practice.
 
 
-### Near Future Directions (include in slide deck not portfolio) {.unnumbered}
+### Near Future Directions (include in slide deck not portfolio) 
 - submit lag paper by end of month
 - propose dissertation in Spring
 
@@ -99,42 +144,42 @@ Summary: A three-day workshop focused on the application and interpretation of s
 
 ## Clinical Experiences
 
-### Clinical Orientation Statement {.unnumbered}
+### Clinical Orientation Statement 
 
 Internship clinical orientation statement: Please describe your theoretical orientation and how this influences your approach to case conceptualization and intervention. You may use de-identified case material to illustrate your points if you choose. 500 word limit
 
 
-### Practicum Experiences {.unnumbered}
+### Practicum Experiences 
 
 Descriptions of clinical practicum experiences: Brief description should include the name and dates for the practicum, brief description of the client population and other relevant details (e.g., interventions, modalities). This should include documentation of clinical hours (per internship categories) and available/completed supervisor evaluations.
 
-### Certification by Clinical Director {.unnumbered}
+### Certification by Clinical Director  
 
 Certification of clinical competencies can be found [here](https://github.com/KendraPaquette/portfolio/blob/main/documents/Certificate%20of%20Completion%20of%20Phase%20I%20Clinical%20Training%20-%20Kendra%20Wyant.pdf)
 
 
-### Assessment Report Samples {.unnumbered}
+### Assessment Report Samples 
 
 Provide integrative or other assessment reports after appropriate de-identification. Do not include raw data from assessments.
 
 
-### Near Future Directions (include in slide deck not portfolio) {.unnumbered}
+### Near Future Directions (include in slide deck not portfolio) 
 - VA
 - assessment focused internship
 
 
 ## Diversity Experiences
 
-### Diversity Statement {.unnumbered}
+### Diversity Statement 
 
-### Workshops {.unnumbered}
+### Workshops 
 
 Empowering people to break the bias habit: Evidenced-based approaches to reducing bias and creating inclusion
 Speaker: Will Cox, Ph.D.
 Description: 3-hour workshop to introduce academic audiences to the concepts of implicit or unconscious biases and assumptions about diverse groups of people by treating the application of such biases as a “habit.” Participants will uncover their own biases, discover the underlying concepts and language used in the psychological and social psychological literature to describe such processes, participate in interactive discussions about the potential influence of implicit or unconscious bias in their department/unit, and learn evidence-based strategies for reducing the application of these biases.
 
 
-### Mentorship and Committees {.unnumbered}
+### Mentorship and Committees 
 
 1.	Maximizing Access to Research Careers Alumni Mentor Program
 Date: Fall 2020 – Spring 2022
@@ -149,7 +194,7 @@ Date: Fall 2020 – Spring 2021
 
 4. PREP Research Mentor, includes summer DELTA training - a copy of the syllabus can be found [here](https://github.com/KendraPaquette/portfolio/blob/main/documents/PREP_mentor_syllabus_2024.pdf).
 
-### Near Future Directions (include in slide deck not portfolio) {.unnumbered}
+### Near Future Directions (include in slide deck not portfolio) 
 
 - Project SHORT Mentor
 
@@ -164,7 +209,7 @@ Date: Fall 2020 – Spring 2021
 
 Course evaluations for IAML can be found [here](https://github.com/KendraPaquette/portfolio/blob/main/documents/iaml_ta_2024.pdf)
 
-### Near Future Directions (include in slide deck not portfolio) {.unnumbered}
+### Near Future Directions (include in slide deck not portfolio) 
 - TA IAML and GLM 
 
 
