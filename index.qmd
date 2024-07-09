@@ -108,38 +108,61 @@ Personal sensing may improve digital therapeutics for mental health care. Howeve
 Poster available [here](https://github.com/KendraPaquette/portfolio/blob/main/presentations/CPA_2023_0316.pdf)   
 
 
-5. 
+5. **Wyant, K.** & Curtin, J.J. (2021, December). *Personal sensing of smartphone communications to support recovery from alcohol use disorder.* Presented at the 36th Annual First Year Project Symposium, Madison, WI.   
+
+Abstract:  
 
 
 
-
-Clinical Lunch and Learn Presentation 
-Title: Personal sensing in clinical research
-Date: April 7, 2021
-Abstract: Personal sensing is a longitudinal method for in situ data collection. Raw personal sensing data streams (e.g., sensor or log data) can be used to create measures that act as indicators of mental health constructs. Thus, paving the way for more accessible and timely treatment and intervention options. However, using personal sensing in clinical settings requires that people accept their use and will sustain the behaviors they require. This presentation provides an overview of the acceptability of various personal sensing data streams individually and in the same context among participants with alcohol use disorder. Future implications of the acceptability of these measures will be discussed in the context of my First Year Project.
-
-2021 PREP Symposium
-Title: A personal sensing approach to alcohol lapse prediction
-Date: August 5, 2021
-Abstract: Alcohol use disorder is a chronic relapsing disease. People can relapse days, weeks, months, or even years after achieving abstinence. Identifying when an initial lapse will occur is an important goal in preventing lapses, repeated lapses, and relapse. Because of the dynamic nature of lapse risk, traditional treatment, like monthly therapy or biweekly therapy sessions, may not be best suited for monitoring lapse risk and intervening prior to relapse, or a full return to previous drinking behavior. Personal sensing methods offer a tool for capturing fluctuations in lapse risk in real time. One understudied personal sensing method in the substance use literature is cellular communication logs. The present study contextualizes participants’ communications with self-report information about their frequently communicated with contacts and seeks to develop a predictive model to predict when someone is at a high risk of lapsing.
-
-36th Annual First-Year Project Symposium
-Title: Personal sensing of smartphone communications to support recovery for alcohol use disorder
-Date: December 3, 2021
+Slides available [here](https://github.com/KendraPaquette/portfolio/blob/main/presentations/fyp_symposium.pdf)
 
 
 
-### Workshops 
-Introduction to Structural Equation Modeling Workshop 
-Instructors: Daniel Bauer, Ph.D. & Patrick Curran, Ph.D.
-Date: May 10 – 12, 2021
-Summary: A three-day workshop focused on the application and interpretation of statistical models that are designed for the analysis of multivariate data with latent variables. Although the traditional multiple regression model is a powerful analytical tool within the social sciences, this is also highly restrictive in a variety of ways. Not only are all variables assumed to have no measurement error, but it is also limited to a single dependent variable with unidirectional effects. The structural equation model (SEM) generalizes the linear regression model to include multiple dependent variables, reciprocal effects, indirect effects, and the estimation and removal of measurement error through the inclusion of latent variables. The SEM is a general framework that allows for the empirical testing of research hypotheses in ways not otherwise possible. In this workshop we provide an introduction to SEM that includes path analysis, confirmatory factor analysis, and structural equation models with latent variables, and which focuses on both establishing a conceptual understanding of the model and how it is applied in practice.
+6. **Wyant, K.** & Curtin, J.J. (2021, August). *A personal sensing approach to alcohol lapse prediction.* Presented at the 2021 Psychology Research Experience Program Symposium, Madison, WI. 
+
+Abstract:  
+
+Alcohol use disorder is a chronic relapsing disease. People can relapse days, weeks, months, or even years after achieving abstinence. Identifying when an initial lapse will occur is an important goal in preventing lapses, repeated lapses, and relapse. Because of the dynamic nature of lapse risk, traditional treatment, like monthly therapy or biweekly therapy sessions, may not be best suited for monitoring lapse risk and intervening prior to relapse, or a full return to previous drinking behavior. Personal sensing methods offer a tool for capturing fluctuations in lapse risk in real time. One understudied personal sensing method in the substance use literature is cellular communication logs. The present study contextualizes participants’ communications with self-report information about their frequently communicated with contacts and seeks to develop a predictive model to predict when someone is at a high risk of lapsing.  
+
+Slides available [here](https://github.com/KendraPaquette/portfolio/blob/main/presentations/prep_2021_0804.pdf)
 
 
-### Near Future Directions (include in slide deck not portfolio) 
-- submit lag paper by end of month
-- propose dissertation in Spring
 
+7. **Wyant, K.** & Curtin, J.J. (2021, April). *Personal sensing in clinical research.* Presented at the UW-Madison clinical psychology departmental weekly lunch and learn (virtual).
+
+Abstract:   
+
+Personal sensing is a longitudinal method for in situ data collection. Raw personal sensing data streams (e.g., sensor or log data) can be used to create measures that act as indicators of mental health constructs. Thus, paving the way for more accessible and timely treatment and intervention options. However, using personal sensing in clinical settings requires that people accept their use and will sustain the behaviors they require. This presentation provides an overview of the acceptability of various personal sensing data streams individually and in the same context among participants with alcohol use disorder. Future implications of the acceptability of these measures will be discussed in the context of my First Year Project.   
+
+Slides available [here](https://github.com/KendraPaquette/portfolio/blob/main/presentations/lunch_and_learn_2021_0407.pdf)  
+
+
+### Workshops Led
+
+1. Introduction to Regularization   
+Organization: LUCID, UW-Madison  
+Date: June 30, 2021  
+Description: Led workshop on applying regularization to the linear model in the tidymodels framework.  
+Materials available [here](https://github.com/KendraPaquette/intro_to_regularization)  
+ 
+
+### Workshops and Trainings Attended
+
+1. AI and Society Seminar  
+Instructors:  Tim Rogers, Ph.D., and Caitlin Roa, Ph.D.     
+Dates: September 8, 2021 - May 6, 2022  
+Description: Interdisciplinary weekly seminar to discuss and apply machine learning and AI concepts.   
+
+2. Introduction to Structural Equation Modeling Workshop   
+Instructors: Daniel Bauer, Ph.D. & Patrick Curran, Ph.D.  
+Dates: May 10 – 12, 2021  
+Description: An introductory three-day workshop on the application and interpretation of path analysis, confirmatory factor analysis, and structural equation models with latent variables.   
+
+3. LUCID Training Seminar     
+Instructors:  Tim Rogers, Ph.D., and Caitlin Roa, Ph.D.   
+Dates: September 2, 2020 - April 30, 2021    
+Description: Interdisciplinary weekly seminar to work on and discuss scientific communication skills and applications of machine learning.   
+ 
 
 
 ## Clinical Experiences
@@ -163,14 +186,14 @@ Certification of clinical competencies can be found [here](https://github.com/Ke
 Provide integrative or other assessment reports after appropriate de-identification. Do not include raw data from assessments.
 
 
-### Near Future Directions (include in slide deck not portfolio) 
-- VA
-- assessment focused internship
-
-
 ## Diversity Experiences
 
 ### Diversity Statement 
+- notes:  
+
+Diversity in clients (children and juveniles in need of protective services, work with Legal Assistance to Incarcerated People, college undergraduates at UHS, and a mix of students and community members in PRTC, additionally, next year I will be working in the VA PTSD clinic to gain exposure to VA culture)
+
+Diversity in research - careful consideration given to how to interpret our models and results as regard to representation of sample and how to go beyond this to get qualitative and quantitative data that is representative in regards to race, SES, geographic location. (PREP project?)
 
 ### Workshops 
 
@@ -179,7 +202,7 @@ Speaker: Will Cox, Ph.D.
 Description: 3-hour workshop to introduce academic audiences to the concepts of implicit or unconscious biases and assumptions about diverse groups of people by treating the application of such biases as a “habit.” Participants will uncover their own biases, discover the underlying concepts and language used in the psychological and social psychological literature to describe such processes, participate in interactive discussions about the potential influence of implicit or unconscious bias in their department/unit, and learn evidence-based strategies for reducing the application of these biases.
 
 
-### Mentorship and Committees 
+### Mentorship and Service 
 
 1.	Maximizing Access to Research Careers Alumni Mentor Program
 Date: Fall 2020 – Spring 2022
@@ -194,9 +217,6 @@ Date: Fall 2020 – Spring 2021
 
 4. PREP Research Mentor, includes summer DELTA training - a copy of the syllabus can be found [here](https://github.com/KendraPaquette/portfolio/blob/main/documents/PREP_mentor_syllabus_2024.pdf).
 
-### Near Future Directions (include in slide deck not portfolio) 
-
-- Project SHORT Mentor
 
 
 
