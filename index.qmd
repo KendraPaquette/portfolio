@@ -163,7 +163,10 @@ Internship clinical orientation statement: Please describe your theoretical orie
 Dates: Fall 2023 - Present   
 Supervisor: Geoff Brown, LPC   
 
-    Description: In my practicum role with University Health Services I provide mandated substance use services to undergraduate college students in violation with the Office of Student Conduct and Community Standards. These services consist of evidence-based educational harm-reduction programs aimed to reduce negative consequences of alcohol and cannabis use. Specific interventions include two individual sessions of Brief Alcohol/Cannabis Screening and Intervention for College Students (BASICS, CASICS) or two group sessions of Choices About Alcohol. These interventions draw heavily from motivational interviewing and relapse prevention theory.
+    Description: In my practicum role with University Health Services I provide mandated substance use services to undergraduate college students in violation with the Office of Student Conduct and Community Standards. These services consist of evidence-based educational harm-reduction programs aimed to reduce negative consequences of alcohol and cannabis use. Specific interventions include two individual sessions of Brief Alcohol/Cannabis Screening and Intervention for College Students (BASICS, CASICS) or two group sessions of Choices About Alcohol. These interventions draw heavily from motivational interviewing and relapse prevention theory.    
+    
+    Time2Track hours available [here](https://github.com/KendraPaquette/portfolio/blob/main/documents/UHS_%20Time2Track.pdf) 
+
     
 ```{r}
 #| echo: false
@@ -172,9 +175,6 @@ tibble::tibble(Category = c("Intervention", "Support", "Supervision"),
                Hours = c(12.30, 33.00, 1.50)) |> 
   knitr::kable()
 ```
-
-
-    Time2Track hours available [here](https://github.com/KendraPaquette/portfolio/blob/main/documents/UHS_%20Time2Track.pdf) 
 
 
 
