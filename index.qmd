@@ -263,7 +263,7 @@ Description: Served as mentor for student in PREP program. Involved email and in
 1. Graduate Teaching Assistant   
 Course: Introduction to Applied Machine Learning (IAML)    
 Dates: Spring 2024   
-Description: Co-led a weekly lab section. This involved developing an agenda for each session that incorporated topic suggestions from students. I also Led lecture discussion section on using machine learning for explanatory purposes.   
+Description: Co-led a weekly lab section. This involved developing an agenda for each session that incorporated topic suggestions from students. I also led a lecture discussion section on using machine learning for explanatory purposes.   
 
     Course evaluations for IAML available [here](https://github.com/KendraPaquette/portfolio/blob/main/documents/iaml_ta_2024.pdf)
 
