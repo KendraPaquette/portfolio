@@ -60,6 +60,8 @@ Research statement: Provide in format of tenure portfolio research statement or 
 
 Moshontz, H., Colmenares, A.J., Fronk, G.E., Sant’Ana, S.J., **Wyant, K.**, Wanta, S.E., … & Curtin, J.J. (2021). Prospective prediction of lapses in opioid use disorder: Protocol for a personal sensing study. *Journal of Medical Internet Research: Research Protocols*. [http://doi.org/10.2196/29563](http://doi.org/10.2196/29563)  
 
+
+
     Relative contributions:   
     
       - conceptualization - 10%   
@@ -178,15 +180,15 @@ tibble::tibble(Category = c("Intervention", "Support", "Supervision"),
 
 
 
-2. Psychology Research and Training Clinic, UW-Madison
+2. Psychology Research and Training Clinic (PRTC), UW-Madison
 Dates: Fall 2021 - Present  
 Supervisors: Chris Gioia, Ph.D., Linnea Burk, Ph.D., Patricia Coffey, Ph.D.   
 
-    Description: Performing intakes and individual therapy (CBT, MI, CBASP, ACT, Exposure Therapy) with adult clients presenting with anxiety, depression, obsessive-compulsive disorder, attention-deficit/hyperactivity disorder (ADHD), and personality disorders.    
-    Client population: Clients consist of a combination of community members, undergraduate, and graduate students.   
-
-    Conducting adult diagnostic, learning disorder, and ADHD assessments (SCID-5-CV, WAIS-IV, WASI-II, WIAT-4, WMS-IV, Conners CPT-3, PAI, MMPI-2, MCMI-IV), and court-ordered psychological evaluations for children and juveniles in need of protective services (CHIPS, JIPS). I have also had the opportunity to conduct a thorough case record review and psychological evaluation in a carceral setting for the Legal Assistance to Incarcerated People project (made diagnosis of Schizophrenia).  
-    Client population: Assessment clients consist primarily of community members and are diverse in terms of race/ethnicity, sex, age, and mental health symptom severity. 
+    Description: In my practicum placement at the PRTC, I work with adult individual therapy clients with a wide range of psychiatric diagnoses, including anxiety, depression, personality disorders, obsessive-compulsive disorder, and attention-deficit/hyperactivity disorder (ADHD). My training has primarily been centered on cognitive-behavioral approaches, including cognitive behavioral therapy, exposure therapy, cognitive behavioral analysis system of psychotherapy, and acceptance and commitment therapy. I also have conducted several adult personality (SCID-5-CV, PAI, MMPI-2, MCMI-IV), cognitive (WAIS-IV, WASI-II), and learning disorder/ADHD assessments (WIAT-4, WMS-IV, Conners CPT-3).
+    
+    Through a community-partnership between the PRTC and Patti Coffey, I have been able to conduct two court-ordered psychological evaluations for children and juveniles in need of protective services. These assessments involved reviewing court records, interviewing collaterol contacts and conducting in person clinical interviews with the minor in need of services and their guardians. The final product of these assessments consisted of a report of all testing and conclusions directed to the court. Through the same partnership, I have also had the opportunity to conduct a thorough case record review of more than 10 years of mental health records for an individual while they were incarcerated, conduct a psychological evaluation for schizophrenia in a carceral setting, and write up a report addressed to the individual's attorney. 
+    
+    In these experiences I have worked with, and continue to work with therapy and assessment clients consisting of community members, and students that are diverse in terms of race/ethnicity, sex, age, and mental health symptom severity. 
 
     A de-identified ADHD assessment report is available [here](https://uwmadison.box.com/s/hcbzenl7z4vto91hetxxmn3j15pip707)   
     A de-identified integrated report is available [here](https://uwmadison.box.com/s/07eyxvcxccdq9scghuzn3lzu0q72hr7n)
