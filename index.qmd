@@ -58,12 +58,14 @@ Research statement: Provide in format of tenure portfolio research statement or 
 
 ### Co-Author Publications 
 
-Moshontz, H., Colmenares, A.J., Fronk, G.E., Sant’Ana, S.J., **Wyant, K.**, Wanta, S.E., … & Curtin, J.J. (2021). Prospective prediction of lapses in opioid use disorder: Protocol for a personal sensing study. *Journal of Medical Internet Research: Research Protocols*. [http://doi.org/10.2196/29563](http://doi.org/10.2196/29563)  
-
-
+1. Moshontz, H., Colmenares, A.J., Fronk, G.E., Sant’Ana, S.J., **Wyant, K.**, Wanta, S.E., … & Curtin, J.J. (2021). Prospective prediction of lapses in opioid use disorder: Protocol for a personal sensing study. *Journal of Medical Internet Research: Research Protocols*. [http://doi.org/10.2196/29563](http://doi.org/10.2196/29563)   
 
     Relative contributions:   
     
+      - conceptualization - 10%   
+      - design - 10%   
+      - analysis - NA       
+      - writing - 10%   
 
 ### Presentations 
 
