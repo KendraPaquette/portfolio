@@ -182,23 +182,35 @@ tibble::tibble(Category = c("Intervention", "Support", "Supervision"),
 Dates: Fall 2021 - Present  
 Supervisors: Chris Gioia, Ph.D., Linnea Burk, Ph.D., Patricia Coffey, Ph.D.   
 
-    Intervention hours: 168.4   
     Description: Performing intakes and individual therapy (CBT, MI, CBASP, ACT, Exposure Therapy) with adult clients presenting with anxiety, depression, obsessive-compulsive disorder, attention-deficit/hyperactivity disorder (ADHD), and personality disorders.    
     Client population: Clients consist of a combination of community members, undergraduate, and graduate students.   
 
-    Assessment hours: 50.08  
-    Description: Conducting adult diagnostic, learning disorder, and ADHD assessments (SCID-5-CV, WAIS-IV, WASI-II, WIAT-4, WMS-IV, Conners CPT-3, PAI, MMPI-2, MCMI-IV), and court-ordered psychological evaluations for children and juveniles in need of protective services (CHIPS, JIPS). I have also had the opportunity to conduct a thorough case record review and psychological evaluation in a carceral setting for the Legal Assistance to Incarcerated People project (made diagnosis of Schizophrenia).  
-    Client population: Clients consist primarily of community members and are diverse in terms of race/ethnicity, sex, age, and mental health symptom severity. 
+    Conducting adult diagnostic, learning disorder, and ADHD assessments (SCID-5-CV, WAIS-IV, WASI-II, WIAT-4, WMS-IV, Conners CPT-3, PAI, MMPI-2, MCMI-IV), and court-ordered psychological evaluations for children and juveniles in need of protective services (CHIPS, JIPS). I have also had the opportunity to conduct a thorough case record review and psychological evaluation in a carceral setting for the Legal Assistance to Incarcerated People project (made diagnosis of Schizophrenia).  
+    Client population: Assessment clients consist primarily of community members and are diverse in terms of race/ethnicity, sex, age, and mental health symptom severity. 
 
     A de-identified ADHD assessment is available [here](https://uwmadison.box.com/s/hcbzenl7z4vto91hetxxmn3j15pip707)   
     A de-identified integrated psychodiagnostic report is available [here](https://uwmadison.box.com/s/07eyxvcxccdq9scghuzn3lzu0q72hr7n)
      
     Time2Track hours available [here](https://github.com/KendraPaquette/portfolio/blob/main/documents/prtc%20_%20Time2Track.pdf)  
     
+```{r}
+#| echo: false
+
+tibble::tibble(Category = c("Intervention", "Assessment", "Support", "Supervision"),
+               Hours = c(168.40, 50.08, 319.25, 94.60)) |> 
+  knitr::kable()
+```   
+    
     
 ### Total Clinical Hours
 
+```{r}
+#| echo: false
 
+tibble::tibble(Category = c("Intervention", "Assessment*", "Support*", "Supervision*"),
+               Hours = c(180.7, 104.93, 383.75, 112.02)) |> 
+  knitr::kable(caption = "*Additional hours accrued and documented from supervised research Structured Clinical Interviews for DSM-5 at Center for Healthy Minds")
+```  
 
 
 
