@@ -27,7 +27,18 @@ Students should provide a brief (up to approximately 500 words) personal stateme
 ## Research Experiences
 
 ### Research Statement 
-Research statement: Provide in format of tenure portfolio research statement or internship research statement (i.e., Please describe your research experience and interests in 500 words).  See appendix on writing a research statement at the end of this document for more details.
+
+In 2022, drug overdoses were the eighth leading cause of death in the United States. The process of recovery, lapse and relapse in substance use disorders is chronic and non-linear. However, unlike other chronic health conditions (e.g., diabetes), substance use disorder treatment is time-limited and aimed at reducing substance use behaviors in acute relapse. My research aims to improve substance use disorder treatment by focusing on continuity of adaptive care that extends beyond initial symptom reduction. Specifically, I focus on the application of machine learning to personally sensed data for the purpose of algorithm-guided clinical recommendations and risk monitoring.
+
+high-dimensionality (personalization and dynamic indicators)
+
+
+
+acceptability (participant perspectives and balancing active-passive methods)
+
+
+
+
 
 ### First-Author Publications 
 
@@ -156,6 +167,10 @@ Description: Interdisciplinary weekly seminar to work on and discuss scientific 
 
 Internship clinical orientation statement: Please describe your theoretical orientation and how this influences your approach to case conceptualization and intervention. You may use de-identified case material to illustrate your points if you choose. 500 word limit
 
+- Cognitive behavioral approaches
+- Assessment outcome measures and feedback from clients to adapt the approach as needed.
+- collaborative
+
 
 ### Practicum Experiences 
 
@@ -223,13 +238,16 @@ tibble::tibble(Category = c("Intervention", "Assessment*", "Support*", "Supervis
 ## Diversity Experiences
 
 ### Diversity Statement 
-Describe your experiences, training, and practices regarding research, clinical practice, and teaching/mentoring (if applicable) with diverse populations. Diversity is construed broadly in this context by design. You may wish to reflect on your engagement with a myriad of populations, from those who have historically been marginalized and understudied in psychology, to at-risk and vulnerable populations traditionally subject to systematic discrimination in social science research and society more generally. Suggested length: 500 words.
+My research and clinical interest in addiction and substance use emphasize the importance of experiences with diverse populations. Substance use affects people from all backgrounds and the high comorbidity with severe mental health conditions puts people at risk of experiencing trauma, incarceration and housing insecurity. Through my clinical work with Dr. Patti Coffey I have worked with individuals involved in the justice system. I have also secured a position at the VA where I will gain experience working with veterans with co-occurring PTSD and substance use. 
 
-- notes:  
+One memorable experience I can recall was an interaction I had with an individual who I was screening for eligibility for a trauma-focused group for previously incarcerated individuals. He was telling me about his experiences with substance use, housing insecurity, and trauma. It was during this interaction I realized how by listening non-judgmentally and providing empathy and validation I was able to make a therapeutic connection in just our single two hour interaction. 
 
-Diversity in clients (children and juveniles in need of protective services, work with Legal Assistance to Incarcerated People, college undergraduates at UHS, and a mix of students and community members in PRTC, additionally, next year I will be working in the VA PTSD clinic to gain exposure to VA culture)
+In addition to experiences working with individuals experiencing severe negative consequences from their substance use, I have also gained experience working with undergraduate students with first-time offences from the university for their alcohol or cannabis use. And at the PRTC I have worked with a client with an alcohol use disorder who did not wish to change their alcohol use. 
 
-Diversity in research - careful consideration given to how to interpret our models and results as regard to representation of sample and how to go beyond this to get qualitative and quantitative data that is representative in regards to race, SES, geographic location. (PREP project?)
+In my research, I have also begun to give careful consideration to how our prediction models and results are interpreted in regard to representation. I have helped develop fairness analyses with my lab that can be reported as transparent benchmarks for how our models perform by demographic characteristic. 
+
+I have also incorporated participant feedback into my research. I am currently working on a project right now with a student I am mentoring as part of the Psychology Research Experience Program. We are using qualititative data from participants with opioid use disorder on their experiences with our data collection methods. We aim to use their own words to assess the feasibility of sensing-assisted treatment and intervention modalities. We are putting a special emphasis on the stability of acceptability and feasibility across demographic groups with known treatment disparities to ensure our conclusions are generalizeable. 
+
 
 ### Workshop Attended
 
