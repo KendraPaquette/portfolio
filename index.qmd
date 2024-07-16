@@ -28,16 +28,13 @@ Students should provide a brief (up to approximately 500 words) personal stateme
 
 ### Research Statement 
 
-In 2022, drug overdoses were the eighth leading cause of death in the United States. The process of recovery, lapse and relapse in substance use disorders is chronic and non-linear. However, unlike other chronic health conditions (e.g., diabetes), substance use disorder treatment is time-limited and aimed at reducing substance use behaviors in acute relapse. My research aims to improve substance use disorder treatment by focusing on continuity of adaptive care that extends beyond initial symptom reduction. Specifically, I focus on the application of machine learning to personally sensed data for the purpose of algorithm-guided clinical recommendations and risk monitoring.
+In 2022, drug overdoses were the eighth leading cause of death in the United States. The process of recovery, lapse and relapse in substance use disorders is chronic and non-linear. However, unlike other chronic health conditions (e.g., diabetes), substance use disorder treatment is time-limited and aimed at reducing substance use behaviors when individuals are in acute relapse. My research aims to improve substance use disorder treatment by focusing on the continuity of adaptive care that extends beyond initial symptom reduction. Specifically, I am interested in the application of machine learning to personally sensed data for the purpose of algorithm-guided clinical recommendations (e.g., what intervention or activity would be most helpful for this individual at this moment?) and risk monitoring (e.g., what is the probability that an individual will engage in goal-inconsistent substance use in the next week?).
 
-high-dimensionality (personalization and dynamic indicators)
+Personal sensing allows for frequent, longitudinal measurement of changes in proximal risk (e.g., for goal-inconsistent substance use). However, to use these data for algorithm-guided action, we must determine that people with substance use disorders are willing and able to provide these data. Thus, I assessed the feasibility of personal sensing methods by evaluating behavioral and subjective indicators of acceptability among people with alcohol use disorder. We found participants subjectively rated personal sensing methods as being acceptable (on average, ratings were significantly higher than neutral) and that participants were willing and able to adhere to our protocols (Wyant et al., 2023). A current study is underway to attempt to replicate these findings in a national sample of people with opioid use disorder.  
 
+A second parallel aim of my research has been to use personal sensing data to predict future goal-inconsistent use of alcohol with high temporal precision. In one study, we demonstrated that we could use ecological momentary assessment data to predict hour-by-hour probabilities of a goal-inconsistent use in the next hour, next day, and next week with excellent performance (auROC's $\ge$ .90; Wyant & Sant'Ana et al., in press). In a follow-up study, we demonstrated that we can also predict goal-inconsistent alcohol use up to two weeks in the future (e.g., goal-inconsistent alcohol use in the next week starting two weeks from now; Wyant et al., in prep). 
 
-
-acceptability (participant perspectives and balancing active-passive methods)
-
-
-
+Finally, machine learning methods allow us to use high-dimensional data that can better capture complex clinical phenomena, like substance use. In our previous work, we found that feature categories with low contributions to overall model performance still consequentially impacted predictions for some individuals at specific moments. Considering a broad set of features allows us to capture risk-relevant signal for more people and, in turn, use features that are important to a specific individual to select and recommend personalized interventions or treatments.
 
 
 ### First-Author Publications 
@@ -248,6 +245,7 @@ In my research, I have also begun to give careful consideration to how our predi
 
 I have also incorporated participant feedback into my research. I am currently working on a project right now with a student I am mentoring as part of the Psychology Research Experience Program. We are using qualititative data from participants with opioid use disorder on their experiences with our data collection methods. We aim to use their own words to assess the feasibility of sensing-assisted treatment and intervention modalities. We are putting a special emphasis on the stability of acceptability and feasibility across demographic groups with known treatment disparities to ensure our conclusions are generalizeable. 
 
+Treatment disparities are also pervasive in substance use treatment. Marginilized communities encounter systemic biases and barriers to treatment access and are disproportionately criminalized for their substance use. Recently, opioid overdoses have been reported to be the leading cause of death among people returning to their communities from carceral settings. Through my line of research I hope to make ongoing treatment more accessible by using personal sensing and machine learning to automate and personalize recommendations and interventions. 
 
 ### Workshop Attended
 
