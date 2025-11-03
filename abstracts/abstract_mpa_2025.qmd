@@ -1,0 +1,21 @@
+---
+title: "Midwestern Psychological Association Abstract"
+author: "Kendra Wyant"
+format: html
+---
+
+### Personalized Prediction of Opioid Lapse Risk Using Machine Learning
+
+**Problem:** A critical component of continuing care during substance use recovery is preventing lapses and relapse. However, the optimal supports to address these risks vary both across individuals and within individuals over time (Witkiewitz & Marlatt, 2007; Brandon, Vidrine, & Litvin, 2006). Therefore, effective interventions must be personalized to both the individual and the moment to meet the complex and changing needs of people in recovery. Advances in smartphone sensing and machine learning offer promising, scalable foundations for personalized relapse risk monitoring during recovery.
+
+**Procedure:** Using a national sample of individuals with opioid use disorder (*N* = 319; 54% male, 69% non-Hispanic White, 55% with income below the federal poverty line), we developed a machine learning model to predict the probability that an individual will lapse back to opioid use within the next 24 hours. Model features were engineered from 1x daily ecological momentary assessment, continuous geolocation sensing data, and baseline demographics. We used 6 repeats of participant-grouped 5-fold cross-validation to select and evaluate the best model configuration. 
+
+To assess model performance, we used a Bayesian hierarchical generalized linear model to estimate the posterior distribution and 95% credible intervals (CI) for the area under the receiver operating characteristic curve (auROC) across the 30 held-out test sets. Using these same test sets, we calculated the median posterior probability and 95% Bayesian CI separately by race/ethnicity (Hispanic and/or non-White vs. non-Hispanic White), income (below vs. above the poverty line), and sex at birth (female vs. male) to evaluate model fairness across important subgroups with documented disparities in treatment access and outcomes. We used Shapley values to characterize the average contribution of each feature to the model’s predictions across all participants and observations.
+
+**Results:** The median posterior auROC for our best-performing model was 0.94, with a narrow 95% CI ([0.94, 0.95]), indicating excellent predictive performance. While there was evidence of performance differences across subgroups, these differences are likely not clinically meaningful, as all groups yielded median auROCs between 0.91 and 0.93. The top three globally important features were past opioid use (i.e., lapses), urge, and abstinence confidence. Among geolocation features, time spent in drinking locations, helpful locations, and religious locations emerged as important.
+
+**Conclusions:** These findings demonstrate that lapses back to opioid use can be predicted with excellent and equitable accuracy. Furthermore, the model’s interpretable inputs align with evidence-based intervention targets, offering actionable insights for lapse prevention.
+
+
+### 50-word summary for program
+Preventing relapse is critical in substance use recovery. Effective interventions require personalized and timely support. Using smartphone data and machine learning, we predicted daily opioid lapse risk with excellent accuracy (auROC = 0.94). We characterized the relative importance of features as interpretable targets for intervention.

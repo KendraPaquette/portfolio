@@ -1,0 +1,18 @@
+---
+title: "Modeling individualized lapse-risk trajectories to optimize personalized recovery support"
+author: "Kendra Wyant, Claire E. Punturieri, John J. Curtin"
+format: html
+---
+
+An important focus of continuing care during substance use recovery is preventing lapses and relapse. However, the risk factors that precipitate lapses are highly individualized, numerous, dynamic, and interactive. The optimal supports to address these risks vary both across individuals and within an individual over time. Therefore, interventions should be personalized to both the person and the moment to meet the complex and changing needs of individuals in recovery.
+
+Such personalization requires access to a high-dimensional array of likely risk factors measured over time, a machine learning model capable of handling high dimensionality and complex, non-linear relationships between features and lapse, and tools from interpretable AI to understand the putative contributors to risk.
+
+The current study uses data from two distinct sensing datasets, geolocation and daily ecological momentary assessment, to model the dynamic and highly individualized lapse-risk trajectories of 146 participants in early recovery from alcohol use disorder over three months. We demonstrate that future (next-day) drinking lapses can be predicted with high accuracy (area under the ROC curve = .90). We also evaluate local feature importance (i.e., the important contributors to predictions for each participant on each day). More importantly, we use data visualization to demonstrate substantial heterogeneity in risk, risk trajectory, and feature importance by showing that lapse risk and its key predictors fluctuate markedly over time within individuals and that these trajectories differ substantially between individuals. 
+
+We conclude by demonstrating how the output of our machine learning model (i.e., risk, risk trajectory, and feature importance) can be used to tailor daily support messages and recovery activity recommendations to prevent imminent lapses and support sustained, adaptive, and personalized relapse prevention in continuing care.
+
+
+
+
+
